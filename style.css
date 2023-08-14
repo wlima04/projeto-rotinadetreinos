@@ -31,7 +31,7 @@ header > h1, header > nav {
     align-items: center;
 }
 
-#icone-feminino {
+#icone-feminino, #icone-relogio {
     height: 32px;
     margin: 20px 30px;
 }
@@ -60,12 +60,19 @@ header > h1, header > nav {
     color: black;
 }
 
+.title-treino {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
 #sect-treino {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 30px 0;
 }
+
 
 #sect-treino > h1 {
     margin-bottom: 40px;

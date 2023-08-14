@@ -64,6 +64,7 @@ header > h1, header > nav {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 #sect-treino {
@@ -71,11 +72,6 @@ header > h1, header > nav {
     flex-direction: column;
     text-align: center;
     margin: 30px 0;
-}
-
-
-#sect-treino > h1 {
-    margin-bottom: 40px;
 }
 
 table {
@@ -104,7 +100,7 @@ table td {
 }
 
 #sect-dieta p {
-    margin: 50px;
+    margin: 30px;
 }
 
 span {

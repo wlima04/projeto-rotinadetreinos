@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.container-principal {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(220, 170, 197, 0.336);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(220, 170, 197, 0.623);
+    color: white;
+}
+
+header > h1, header > nav {
+    margin: 20px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+#icone-feminino {
+    height: 32px;
+    margin: 20px 30px;
+}
+
+#menu {
+    width: 205px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14pt;
+    color: white;
+}
+
+#sect-treino {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#sect-treino > h1 {
+    margin-bottom: 40px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 200px;
+    font-weight: bold;
+}
+
+table td {
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+#sect-dieta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#sect-dieta p {
+    margin: 50px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.confirmado {
+    color: green;
+    text-decoration: line-through;
+}
